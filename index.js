@@ -11,7 +11,15 @@ const multer = require('multer')
 
 
 app.use(express.urlencoded())
-app.use(express.static(path.join(__dirname, '/')))
+app.use(express.static(path.join(__dirname, '/'), {
+    etag: true,
+    lastModified: true,
+    setHeaders: (res, path) => {
+        if (path.endsWith('.html')) {
+            res.setHeader('Cache-Control', "public, max-age=604800, immutable")
+        }
+    }
+}))
 app.use(express.json({ limit: '10gb' }))
 
 
@@ -98,7 +106,7 @@ const thumbnailupload = multer({
 
 //___________________________________________________________________________________________
 
-app.listen(process.env.PORT , () => {
+app.listen(process.env.PORT || 80, () => {
     console.log('THE PORT IS UP AND RUNNING')
     console.dir(`http://localhost/`)
 })
@@ -244,17 +252,17 @@ app.post('/comment', (req, res) => {
 
     finalsave.find({}, (err, CollectionName) => {
         console.log(req.body.id)
-        
+
         let commentfinalsave = finalsave.updateOne({ _id: req.body.id },
             {
                 $push: { Comment: [req.body.content] }
-                
+
             }, function (err, data) {
                 return data
             })
 
         commentfinalsave.update()
-        
+
 
     })
 
