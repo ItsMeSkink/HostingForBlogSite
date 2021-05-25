@@ -12,6 +12,11 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  image-rendering: auto;
+}
+
+body * {
+  image-rendering: auto;
 }
 
 #whole {

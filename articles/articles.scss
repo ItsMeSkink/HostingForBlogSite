@@ -20,6 +20,11 @@ body {
     overflow: hidden;
     background-size: cover;
     background-attachment: fixed;
+    image-rendering: auto;
+
+    * {
+        image-rendering: auto;
+    }
 }
 
 #whole {

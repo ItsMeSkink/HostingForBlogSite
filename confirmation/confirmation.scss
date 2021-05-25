@@ -6,6 +6,10 @@ body {
     background-size: cover;
     position: relative;
     overflow: hidden;
+    image-rendering: auto;
+    * {
+        image-rendering: auto;
+    }
 }
 
 #buttons_whole {

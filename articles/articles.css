@@ -1713,6 +1713,11 @@ body {
   overflow: hidden;
   background-size: cover;
   background-attachment: fixed;
+  image-rendering: auto;
+}
+
+body * {
+  image-rendering: auto;
 }
 
 #whole {

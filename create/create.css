@@ -15,6 +15,12 @@ body {
   background-size: cover;
   display: flex;
   overflow: hidden;
+  image-rendering: auto;
+
+}
+
+body * {
+  image-rendering: auto;
 }
 
 #actionarea {

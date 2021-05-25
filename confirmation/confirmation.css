@@ -4,6 +4,11 @@ body {
   background-size: cover;
   position: relative;
   overflow: hidden;
+  image-rendering: auto;
+}
+
+body * {
+  image-rendering: auto;
 }
 
 #buttons_whole {
