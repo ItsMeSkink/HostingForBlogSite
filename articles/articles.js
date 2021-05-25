@@ -55,11 +55,17 @@ else {
     $('.article .brief').click((e) => {
         const clas = $(e.currentTarget.parentNode).attr('class')
 
-        if (clas == 'article') {
+        if (clas == 'article minor') {
             $(e.currentTarget.parentNode.children[1]).show()
 
             $('.brief').hide()
 
+        }
+
+        else if (clas == 'article major') {
+            $(e.currentTarget.parentNode.children[1]).show()
+
+            $('.brief').hide()
         }
     })
 }
