@@ -98,7 +98,7 @@ const thumbnailupload = multer({
 
 //___________________________________________________________________________________________
 
-app.listen(80 || process.env.PORT , () => {
+app.listen(process.env.PORT , () => {
     console.log('THE PORT IS UP AND RUNNING')
     console.dir(`http://localhost/`)
 })
