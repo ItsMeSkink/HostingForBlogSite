@@ -717,11 +717,10 @@
     padding: 20px;
   }
   .detail .commentsection .comments * {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .detail .commentsection .comments .docomment input {
-    padding: 1vw;
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .detail .commentsection .showcomments {
     -webkit-box-orient: horizontal;
@@ -840,6 +839,7 @@
     font-size: 9vw;
     width: 96vw;
     text-align: center;
+    padding: 2vh;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

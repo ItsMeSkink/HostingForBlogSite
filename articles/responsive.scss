@@ -135,13 +135,13 @@
 
                 padding: 20px;
                 * {
-                    font-size: 2vw;
+                    font-size: 3.5vw;
                 }
 
                 .docomment {
                     input {
-                        padding: 1vw;
-                        font-size: 2vw;
+                        // padding: 1vw;
+                        font-size: 3vw;
                     }
                 }
             }
@@ -199,6 +199,8 @@
 
                 border-top-left-radius: 20px;
                 border-top-right-radius: 20px;
+
+              
 
                 * {
                     margin: 0px 20px;
@@ -263,6 +265,7 @@
                     font-size: 9vw;
                     width: 96vw;
                     text-align: center;
+                    padding: 2vh;
                 }
             }
         }

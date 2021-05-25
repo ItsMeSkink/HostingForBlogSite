@@ -15,7 +15,6 @@ function getRandomDarkColor() {
 }
 
 for (article = 0; article < $('.article').length; article++) {
-    // console.log(getRandomColor())
     $('.article .brief')[article].style.backgroundImage = `linear-gradient( ${getRandomDarkColor()}, black)`
 
 }
@@ -31,7 +30,6 @@ function getRandomLightColor() {
 
 
 for (quarter = 0; quarter < $('.article').length; quarter++) {
-    // console.log(getRandomColor())
     $('.quarter')[quarter].style.backgroundColor = getRandomLightColor()
 
 }
@@ -104,7 +102,6 @@ $('.CommentButton').click((e) => {
         content: comment,
         id: e.target.id
     }
-    console.log(comment)
 
 
 
@@ -130,6 +127,10 @@ $('.CommentContent').on('keydown', () => {
 
 $('.commentsection ~ *').click(() => {
     $('.comments').hide()
+})
+
+$('#NavigationBottom ~ *').click(() => {
+    $('#NavigationBottom span span').hide()
 })
 
 

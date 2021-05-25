@@ -9,6 +9,21 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     <body>
+
+        <div id="NavigationBottom">
+            <i class="material-icons">home</i>
+            <i class="material-icons back">article</i>
+            <i class="material-icons">tips_and_updates</i>
+            <i class="material-icons">info</i>
+            <span>
+                <span>
+                    <i class="material-icons" style="transform: scale(0.9);">build</i>
+                    <i class="material-icons" style="transform: scale(0.9);">people</i>
+                </span>
+                <i class="material-icons">account_tree</i>
+            </span>
+        </div>
+
         <div id="whole">
             <% data.forEach((item ,index)=> {%>
                 <div id="article<%=index+1%>" class="article minor">
@@ -33,6 +48,27 @@
                     </div>
                     <div class="detail">
 
+                        <div class="commentsection">
+                            <button class="showcomments"> <span>Comments</span>
+                                <img src="/Blog_Images/Comment.png" alt="">
+                            </button>
+
+                            <div class="comments" hidden>
+                                <div id="displaycomments">
+                                    <%item.Comment.forEach((comment, indexofcomment)=> { %>
+                                        <div>
+                                            <%=comment%>
+                                        </div>
+                                        <%}) %>
+                                </div>
+                                <span class="docomment">
+                                    <input type="text" name="CommentContent" class="CommentContent" placeholder="Care to Comment?">
+
+                                    <button class="CommentButton" id="<%=item.id%>">&#128488;</button>
+                                </span>
+
+                            </div>
+                        </div>
 
                         <div id="thumbnail_tags_share_spotify">
 
@@ -95,27 +131,7 @@
                         </div>
                         <img src="/Blog_Images/Complete Read.png" alt="" class="back">
 
-                        <div class="commentsection">
-                            <button class="showcomments"> <span>Comments</span>
-                                <img src="/Blog_Images/Comment.png" alt="">
-                            </button>
 
-                            <div class="comments" hidden>
-                                <div id="displaycomments">
-                                    <%item.Comment.forEach((comment, indexofcomment)=> { %>
-                                        <div>
-                                            <%=comment%>
-                                        </div>
-                                        <%}) %>
-                                </div>
-                                <span class="docomment">
-                                    <input type="text" name="CommentContent" class="CommentContent" placeholder="Care to Comment?">
-
-                                    <button class="CommentButton" id="<%=item.id%>">&#128488;</button>
-                                </span>
-
-                            </div>
-                        </div>
 
                         <div id="sharebottom">
                             <img src="/Blog_Images/Instagram.png" alt="" id="Instagram">
@@ -147,19 +163,7 @@
             </span>
         </div>
 
-        <div id="NavigationBottom">
-            <i class="material-icons">home</i>
-            <i class="material-icons back">article</i>
-            <i class="material-icons">tips_and_updates</i>
-            <i class="material-icons">info</i>
-            <span>
-                <span>
-                    <i class="material-icons" style="transform: scale(0.9);">build</i>
-                    <i class="material-icons" style="transform: scale(0.9);">people</i>
-                </span>
-                <i class="material-icons">account_tree</i>
-            </span>
-        </div>
+
 
 
 

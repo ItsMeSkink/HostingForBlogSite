@@ -810,6 +810,7 @@
 }
 
 #NavigationBottom {
+  z-index: 100;
   display: none;
   position: fixed;
   bottom: 0;
@@ -1568,11 +1569,10 @@
     padding: 20px;
   }
   .detail .commentsection .comments * {
-    font-size: 2vw;
+    font-size: 3.5vw;
   }
   .detail .commentsection .comments .docomment input {
-    padding: 1vw;
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .detail .commentsection .showcomments {
     -webkit-box-orient: horizontal;
@@ -1691,6 +1691,7 @@
     font-size: 9vw;
     width: 96vw;
     text-align: center;
+    padding: 2vh;
   }
 }
 
@@ -1719,6 +1720,7 @@ body {
   position: fixed;
   top: 20px;
   left: 20px;
+  z-index: 50;
 }
 
 #whole .scrolled {

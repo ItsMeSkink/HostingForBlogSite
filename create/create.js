@@ -15,7 +15,6 @@ $('#FontColorButton').click(() => {
 
     document.getElementById('FontColor').addEventListener('input', () => {
         const fontcolor = document.getElementById('FontColor').value
-        console.log('Font Color ' + fontcolor)
         document.execCommand('forecolor', false, fontcolor)
     })
 })
@@ -26,7 +25,6 @@ $('#Highlight').click(() => {
 
     document.getElementById('HighlightColor').addEventListener('input', () => {
         const highightcolor = document.getElementById('HighlightColor').value
-        console.log('Highlight Color ' + highightcolor)
         document.execCommand('backColor', false, highightcolor)
 
     })
@@ -215,7 +213,6 @@ $('#ManualFontSize').click(() => {
     document.getElementById('DefaultFontSizes').addEventListener('input', () => {
         document.execCommand('stylewithcss', false, 'true')
         document.execCommand('fontsize', false, document.getElementById('DefaultFontSizes').value)
-        console.log(document.getElementById('DefaultFontSizes').value)
     })
 })
 
@@ -235,7 +232,6 @@ $('#Statement').click(() => {
 
 
 document.getElementById('LocalImage').addEventListener('input', () => {
-    console.log(document.getElementById('LocalImage').value)
     $('#imagesubmit').click()
     const imagename = ('LocalImage' + "_" + Date.now() + '.png')
 
@@ -245,7 +241,6 @@ document.getElementById('LocalImage').addEventListener('input', () => {
 
 
 document.getElementById('LocalVideo').addEventListener('input', () => {
-    console.log(document.getElementById('LocalVideo').value)
     $('#videosubmit').click()
     const videoname = ('LocalVideo' + "_" + Date.now() + '.mp4')
 
@@ -269,7 +264,6 @@ setInterval(() => {
         body: JSON.stringify(titlecontent),
     })
 
-    console.log(titlecontent)
 
 }, 100);
 
