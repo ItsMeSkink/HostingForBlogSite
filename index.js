@@ -169,7 +169,6 @@ app.post('/send', (req, res) => {
     res.end()
 })
 
-
 app.post('/upload', (req, res) => {
 
     console.log('THIS IS THE UPLOAD')
@@ -245,14 +244,17 @@ app.post('/comment', (req, res) => {
 
     finalsave.find({}, (err, CollectionName) => {
         console.log(req.body.id)
+        
         let commentfinalsave = finalsave.updateOne({ _id: req.body.id },
             {
                 $push: { Comment: [req.body.content] }
+                
             }, function (err, data) {
                 return data
             })
 
         commentfinalsave.update()
+        
 
     })
 

@@ -2,6 +2,8 @@ let navigationbuttons = document.querySelector('#NavigationBarShow i, #Navigatio
 
 $('#NavigationBarShow i, #NavigationBottom i, #navigationdefault i, #Navigation div i').css('cursor', 'default')
 
+$('#NavigationBarShow i, #NavigationBottom i, #navigationdefault i, #Navigation div i').css('user-select', 'none')
+
 $('#NavigationBarShow i, #NavigationBottom i, #navigationdefault i, #Navigation div i').click((e) => {
     switch (e.currentTarget.outerText) {
         case 'home':
