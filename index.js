@@ -215,8 +215,8 @@ app.post('/options', thumbnailupload, (req, res) => {
         const URL = Title.replace(/\s+/g, '');
 
         const finaldata = new finalsave({
-            Title: Title,
-            Content: Content,
+            Title: CollectionName[CollectionName.length - 1].Title,
+            Content: CollectionName[CollectionName.length - 1].Content,
             Tag1: Labels.Label1,
             Tag2: Labels.Label2,
             Tag3: Labels.Label3,
