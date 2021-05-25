@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="create.css">
+    </head>
+    <body>
+        <div id="backbutton">
+            <img src="/Blog_Images/Create_Icons/backarrow.png" alt="" id="BackButton">
+
+            <img src="/Blog_Images/Create_Icons/Plugins.png" alt="" id="Plugins">
+
+
+        </div>
+
+        <div id="actionarea">
+
+            <form action="/upload" method="post" id="titleandcontent">
+
+                <div contenteditable="true" id="output" name="textField">
+                    <%- Content %>
+                </div>
+                <br><br><br>
+                <input type="text" name="Title" id="Title" style="border-top: 3px solid black;" value="<%=Title%>" placeholder="Title">
+                <br>
+                <button id="upload">UPLOAD</button>
+            </form>
+
+            <div id="textedit">
+                <h1 id="edittitle">EDIT</h1>
+
+                <select name="FontFamily" id="FontFamily" data-cmd="fontName" class="texteditfunction">
+                    <option value="Arial">Arial</option>
+                    <option value="Cambria">Cambria</option>
+                    <option value="RowdyHeavy">RowdyHeavy</option>
+                    <option value="Algerian">Algerian</option>
+                    <option value="Garamond">Garamond</option>
+                </select>
+
+                <button id="decreasefontsize">
+                    <img src="/Blog_Images/Create_Icons/Decrease Text Size.png" alt="" id="DecreaseFontSize">
+                </button>
+                <button id="increasefontsize">
+                    <img src="/Blog_Images/Create_Icons/Increase Text Size.png" alt="" id="IncreaseFontSize">
+                </button>
+
+                <span id="ManualFontSize">
+                    <input type="number" name="FontSizeInput" id="FontSizeInput" max="120" min="24" style="background-color: transparent; border: none; font-size: 24px;">
+
+                    <select id="DefaultFontSizes" hidden>
+                        <option>24px</option>
+                        <option>30px</option>
+                        <option>36px</option>
+                        <option>42px</option>
+                        <option>48px</option>
+                        <option>54px</option>
+                        <option>60px</option>
+                        <option>66px</option>
+                        <option>72px</option>
+                        <option>78px</option>
+                        <option>84px</option>
+                        <option>90px</option>
+                        <option>96px</option>
+                        <option>102px</option>
+                        <option>108px</option>
+                        <option>114px</option>
+                        <option>120px</option>
+                    </select>
+                </span>
+                <br>
+                <span id="bui">
+                    <button id="Bold"><img src="/Blog_Images/Create_Icons/Bold.png" alt=""></button>
+
+                    <button id="Underline"><img src="/Blog_Images/Create_Icons/Underline.png" alt=""></button>
+
+                    <button id="Italics"><img src="/Blog_Images/Create_Icons/Italics.png" alt=""></button>
+                </span>
+
+                ---
+                <span id="fontcolor" style="margin-left: 10px;">
+                    <span id="FontColorButton">T</span>
+                    <input type="color" name="FontColor" id="FontColor">
+                </span>
+
+                <span id="hightlight">
+                    <mark id="Highlight">T</mark>
+
+                    <input type="color" name="HighlightColor" id="HighlightColor">
+
+                </span>
+
+
+                <span id="hyperlink">
+                    <img src="/Blog_Images/Create_Icons/Hyperlink-Icon.png" alt="" id="Hyperlink" style=" width: 80px;">
+                    <span id="urldropdown" hidden>
+                        <input type="url" name="HyperlinkURL" id="HyperlinkURL">
+                    </span>
+                </span>
+
+                <br>
+
+                <span id="alignment">
+                    <img src="/Blog_Images/Create_Icons/Text Align Center.png" alt="" id="AlignCenter">
+                    <img src="/Blog_Images/Create_Icons/Text Align Left.png" alt="" id="AlignLeft" style="margin-bottom: 10px;">
+                    <img src="/Blog_Images/Create_Icons/Text Align Right.png" alt="" id="AlignRight" style="margin-bottom: 10px;">
+                </span>
+
+                ---
+
+                <span id="UnorderedLists">
+                    <img src="/Blog_Images/Create_Icons/Undordered List Bullets.png" alt="" id="ULButton" style="height: 60px; width: 70px;">
+
+                    <span id="ullistdropdown" hidden>
+                        <ul type="square" id="SquareUL">
+                            <li>———</li>
+                            <li>———</li>
+                            <li>———</li>
+                        </ul>
+                        <ul type="circle" id="CircleUL">
+                            <li>———</li>
+                            <li>———</li>
+                            <li>———</li>
+                        </ul>
+                        <ul style="list-style-image: url('/Custom Triangle UL.png');" id="TriangleUL">
+                            <li>———</li>
+                            <li>———</li>
+                            <li>———</li>
+                        </ul>
+                    </span>
+                </span>
+
+                <!-- ----------- -->
+
+                <span id="OrderedLists">
+                    <img src="/Blog_Images/Create_Icons/Ordered List 123.png" alt="" id="OLButton">
+
+                    <span id="ollistdropdown" hidden>
+                        <ol type="a" id="OLa">
+                            <li>———</li>
+                            <li>———</li>
+                            <li>———</li>
+                        </ol>
+                        <ol type="I" id="OLI">
+                            <li>———</li>
+                            <li>———</li>
+                            <li>———</li>
+                        </ol>
+                        <ol type="A" id="OLA">
+                            <li>———</li>
+                            <li>———</li>
+                            <li>———</li>
+                        </ol>
+                        <ol type="i" id="OLi">
+                            <li>———</li>
+                            <li>———</li>
+                            <li>———</li>
+                        </ol>
+                    </span>
+                </span>
+                <br>
+
+                <span id="spacing">
+                    <img src="/Blog_Images/Create_Icons/Line Spacing.png" alt="" id="LineSpacing" style="margin-top: 20px; margin-left: 15px;">
+                    <img src="/Blog_Images/Create_Icons/Letter Spacing.png" alt="" id="LetterSpacing" style="margin-bottom: -5px;">
+                </span>
+
+                <span id="TextTypes">
+                    <span id="Heading"><b><u style="font-size: 60px;">Heading</u></b> &#9660;</span>
+
+                    <span id="texttypedropdown" hidden>
+                        <span id="Sub-Heading">Sub-Heading</span>
+
+                        <span id="Statement"><i>"Statement "</i></span>
+                        <span id="Paragraph" style="margin-top: 10px;">Paragraph</span>
+                    </span>
+                </span>
+
+                <div>
+                    <img src="/Blog_Images/Create_Icons/Randomize.png" alt="" id="Randomize" style="margin-left: 10px;">
+
+                    <img src="/Blog_Images/Create_Icons/Translate.png" alt="" id="Translate" style="margin-left: 20px;">
+
+                    <img src="/Blog_Images/Create_Icons/Dictate.png" alt="" id="Dictate" style="margin-bottom: -50px; margin-left: 50px;">
+                    <br>
+
+                    <span id="image">
+
+                        <img src="/Blog_Images/Create_Icons/Image.png" alt="" width="120px" id="Image">
+
+                        <span id="imagedropdown" hidden>
+
+                            <form action="/imageupload" id="ImageUpload" method="POST" enctype="multipart/form-data">
+                                <label for="LocalImage"> <span>Local image</span>
+                                    <input type="file" name="LocalImage" id="LocalImage" hidden>
+                                    <button type="submit" id="imagesubmit" hidden>submit</button>
+                                </label>
+                            </form>
+
+                            <input type="url" id="URLImage" placeholder="URL-Image">
+                        </span>
+                    </span>
+
+                    <span id="video">
+                        <img src="/Blog_Images/Create_Icons/Video.png" alt="" width="130px" style="transform: translateY(5px);" id="Video">
+
+                        <span id="videodropdown" hidden>
+                            <form action="/videoupload" id="VideoUpload" method="POST" enctype="multipart/form-data">
+                                <label for="LocalVideo"> <span>Local Video</span>
+                                    <input type="file" name="LocalVideo" id="LocalVideo" hidden>
+                                </label>
+                                <button type="submit" id="videosubmit" hidden> submit</button>
+                            </form>
+
+                            <input type="url" id="URLVideo" placeholder="URL-Video">
+                        </span>
+                    </span>
+
+                    <span id="emoji">
+                        <img src="/Blog_Images/Create_Icons/Emoji.png" alt="" id="Emoji" style="transform: translate(-15px,-40px);">
+                    </span>
+                    <br>
+
+                    <span id="Thesaurus">
+                        <img src="/Blog_Images/Create_Icons/Thesaurus.png" alt="" style="margin-top: 10px; margin-left: 10px;">
+
+                        <span id="wordsearch" hidden>
+                            <span>
+                                <input type="search" name="SearchWord" id="SearchWord">
+                            </span>
+
+                            <span id="searchresults">
+                            </span>
+                        </span>
+                    </span>
+
+                    <span style="margin-right: -65px; margin-left: 115px;">
+                        <button type="button" style="margin-left: -130px;" data-cmd="showCode" name="active">
+                            <img src="/Blog_Images/Create_Icons/Rotate.png" alt="" id="Rotate" style=" margin-bottom: 10px;">
+                        </button>
+                    </span>
+
+
+                    <button style="margin-left: 0px; margin-top: -40px;" onclick="nothin()">
+                        <img src="/Blog_Images/Create_Icons/Content Recommendation.png" alt="" id="Ideas" style="z-index: -1">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="/create/create.js"></script>
+
+
+        <script>
+            $('#Image').click(() => {
+
+                const URLImage = document.getElementById('URLImage').value
+                console.log(URLImage)
+
+                if (URLImage != '') {
+                    document.execCommand('insertimage', false, URLImage)
+                    console.log(document.getElementById('URLImage').value)
+                    $('#output img').attr('width', '500px')
+                }
+                else {
+                    const Image = "<%= Image%>"
+                    document.execCommand('insertimage', false, `/imagestorage/${Image}`)
+                    $('#output img').attr('width', '500px')
+                    console.log(Image)
+                }
+            })
+
+            $('#Video').click(() => {
+                const URLVideo = document.getElementById('URLVideo').value
+
+                if (URLVideo != '') {
+                    let videohtmlurl = `<video width = 400px controls>
+                    <source src = "${URLVideo}" type=video/mp4>
+                    </video>`
+                    document.execCommand('insertHTML', false, videohtmlurl)
+                }
+                else {
+                    const Video = "<%= Video %>"
+                    let videohtmllocal = `<video width = 400px controls>
+                        <source src = "/videostorage/${Video}" type=video/mp4>
+                        </video>`
+                    document.execCommand('insertHTML', false, videohtmllocal)
+                    console.log(Video)
+                }
+
+            })
+        </script>
+        <script src="/__/firebase/8.6.2/firebase-app.js"></script>
+        <script src="/__/firebase/init.js"></script>
+    </body>
+</html>

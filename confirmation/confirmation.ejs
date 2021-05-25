@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/confirmation/confirmation.css">
+    </head>
+    <body>
+
+        <div id="buttons_whole">
+            <div id="buttons">
+                <img src="/Blog_Images/BackToBrief.png" alt="" id="Back" height="60px">
+
+            </div>
+            <div id="whole">
+                <form id="options" action="/options" method="POST" enctype="multipart/form-data">
+
+                    <label id="thumbnail">
+                        <span id="chosethumbnail">Chose Thumbnail</span>
+                        <img src="#" alt="" hidden>
+                        <input type="file" name="Thumbnail" id="Thumbnail" hidden>
+                    </label>
+
+                    <div id="labels_share_spotify">
+                        <div id="labels">
+                            <img src="/Blog_Images/Label UL Root.png" alt="" id="root">
+                            <ul>
+                                <li><input type="text" name="Label1" placeholder="<Tag1>"></li>
+                                <li><input type="text" name="Label2" placeholder="<Tag2>"></li>
+                                <li><input type="text" name="Label3" placeholder="<Tag3>"></li>
+                                <li><input type="text" name="Label4" placeholder="<Tag4>"></li>
+                                <li><input type="text" name="Label5" placeholder="<Tag5>"></li>
+                                <li><input type="text" name="Label6" placeholder="<Tag6>"></li>
+                            </ul>
+                        </div>
+                        <div id="share_spotify">
+                            <div id="share">
+                                <img src="/Blog_Images/Instagram.png" alt="" id="Instagram">
+                                <img src="/Blog_Images/Twitter.png" alt="" id="Twitter">
+                                <img src="/Blog_Images/WhatsappShare.png" alt="" id="Whatsapp">
+                                <img src="/Blog_Images/LinkShare.png" alt="" id="Link">
+                            </div>
+
+                            <img src="/Blog_Images/Spotify_WhiteBG.png" alt="" id="spotify">
+                        </div>
+                    </div>
+                    <button id="confirm">
+                        P <br>
+                        O <br>
+                        S <br>
+                        T <br>
+                    </button>
+                </form>
+
+
+
+                <div id="title_speak_content">
+                    <div id="title_speak">
+                        <h1 id="title">
+                            <%=Title%>
+                        </h1>
+                        <img src="/Blog_Images/Audio Icon.png" alt="" id="Speak">
+                    </div>
+                    <hr>
+                    <div id="content_confirm">
+                        <div id="content">
+                            <%-Content %>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>

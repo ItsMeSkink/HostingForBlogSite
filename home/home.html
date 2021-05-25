@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../home/home.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <div id="whole">
+
+
+            <div id="Email-Phone">
+                <span id="Email">
+                    <i class="material-icons">email</i>
+                    <h2>lakshyamonga.io <br> @gmail.com</h2>
+                </span>
+                <span id="Phone ">
+                    <h2>+91 9810030316</h2>
+                    <i class="material-icons">call</i>
+                </span>
+            </div>
+            <!-- ------------------------------------------------ -->
+            <img src="/Blog_Images/Profile Image.png" alt="" id="ProfileImage">
+            <!-- ------------------------------------------------ -->
+            <div id="Social-Name-Search">
+
+                <div id="Social">
+                    <span id="instagram">
+                        <img src="/Blog_Images/Instagram.png" alt="" id="Instagram">
+                        <a href="https://instagram.com/lakshyamonga..io">@lakshyamonga.io</a>
+                    </span>
+                    <span id="twitter">
+                        <a href="https://twitter.com/Lakshya_Monga">@Lakshya_Monga</a>
+                        <img src="/Blog_Images/Twitter.png" alt="" id="Twitter">
+                    </span>
+                </div>
+                <h1>Lakshya Pratap Monga</h1>
+                <div id="Search">
+                    <input type="search" name="Search" id="Search">
+                    <i class="material-icons">search</i>
+                </div>
+            </div>
+            <!-- ------------------------------------------------ -->
+            <div id="Navigation">
+                <div id="Home-Articles-Suggestions">
+                    <i class="material-icons">home</i>
+                    <i class="material-icons">article</i>
+                    <i class="material-icons">tips_and_updates</i>
+                </div>
+                <div id="MYO-Friends-About">
+                    <i class="material-icons" style="transform: scale(0.9);">build</i>
+                    <i class="material-icons" style="transform: scale(0.9);">people</i>
+                    <i class="material-icons">info</i>
+                </div>
+            </div>
+            <div id="Tagline-Spotify">
+                <p>Here's to the crazy ones, the misfits, the troublemakers, the round pegs in the sqaure holes and the ones who see things differently. They are not fond of rules and they have no respect for the status quo. You can quote them, disagree with them, glorify or villify them about the only thing that you can't do is ignore them. Because they change things, they push the human race forward and while some may see them as the crazy ones, we see genius because the ones who are crazy enough to think that they can change the world are the ones who do.</p>
+
+                <img src="https://icon-library.com/images/spotify-png-icon/spotify-png-icon-6.jpg" alt="" id="SpotifyShow">
+                <img src="/Blog_Images/ListenOnSpotify_BlackBG.png" alt="" id="SpotifyHidden">
+            </div>
+        </div>
+
+        <div id="NavigationBottom">
+            <i class="material-icons">home</i>
+            <i class="material-icons">article</i>
+            <i class="material-icons">tips_and_updates</i>
+            <i class="material-icons">info</i>
+            <span>
+                <span>
+                    <i class="material-icons" style="transform: scale(0.9);">build</i>
+                    <i class="material-icons" style="transform: scale(0.9);">people</i>
+                </span>
+                <i class="material-icons">account_tree</i>
+            </span>
+        </div>
+        <div id="backgroundimages">
+            <img src="/Blog_Images/Purple Star.png" id="PurpleStar">
+            <img src="/Blog_Images/Article Image BgImage.png" id="SampleArticle" onclick="location = '/articles'">
+            <img src="/Blog_Images/Dark Green Star.png" id="DarkGreenStar">
+            <img src="/Blog_Images/Pink Circle.png" id="PinkCircle">
+            <img src="/Blog_Images/Light Blue Star.png" id="LightBlueStar">
+
+            <img src="/Blog_Images/Light Green Star.png" id="LightGreenStar">
+            <img src="/Blog_Images/Yellow Star.png" id="YellowStar">
+            <img src="/Blog_Images/Mars Colonization Vector.png" id="MarsColonization">
+            <img src="/Blog_Images/Pink Star.png" id="PinkStar">
+            <img src="/Blog_Images/Galazy Vector.png" id="Galaxy">
+            <img src="/Blog_Images/Orange Circle.png" id="OrangeCircle">
+            <img src="/Blog_Images/Mahabalipuram Image.png" id="MahabalipuramImage">
+        </div>
+
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $('#NavigationBottom span span').hide()
+        
+        $('#NavigationBottom span').click(() => {
+            $('#NavigationBottom span span').show()
+        })
+        </script>
+    <script src="/navigation.js"></script>
+    <script src="/__/firebase/8.6.2/firebase-app.js"></script>
+    <script src="/__/firebase/init.js"></script>
+</html>

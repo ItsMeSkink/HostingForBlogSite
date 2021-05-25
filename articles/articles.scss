@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rancho&family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rancho&family=Reem+Kufi&family=Righteous&display=swap");
+
+@import "majorminor.scss";
+@import "detail.scss";
+@import "navigation.scss";
+@import "responsive.scss";
+
+
+* {
+    font-family: "Righteous";
+    outline: none;
+}
+
+body {
+    background-image: url("https://www.innovationnewsnetwork.com/wp-content/uploads/2020/03/Innovating-satellite-communication-with-quantum-entangled-photons.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#whole {
+    display: grid;
+    grid-template-rows: repeat(2, 420px);
+    grid-template-columns: repeat(100, 350px);
+    grid-gap: 20px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    
+    .scrolled {
+        grid-row: 2;
+    }
+    
+}
+

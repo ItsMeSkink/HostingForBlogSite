@@ -1,0 +1,773 @@
+@media only screen and (max-width: 1900px) {
+  #whole {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 10vh;
+  }
+  #whole #profileimage-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-left: 16px;
+    width: 1264px;
+  }
+  #whole #profileimage-name #profileimage {
+    width: 280px;
+    z-index: 2;
+  }
+  #whole #profileimage-name h1 {
+    background-color: #00ffe0;
+    padding: 8px 16px;
+    padding-left: 64px;
+    margin-left: -40px;
+    z-index: 1;
+    border-radius: 16px;
+    font-size: 48px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify {
+    background-image: linear-gradient(45deg, #dbff00, #ff00d6, #32ffff);
+    padding: 16px;
+    border-radius: 16px;
+    margin-top: -80px;
+    padding-top: 140px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    width: 1248px;
+    position: relative;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #navigationdefault {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ae00ff), to(red));
+    background-image: linear-gradient(#ae00ff, red);
+    padding: 12px;
+    border-radius: 16px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (68px)[2];
+        grid-template-columns: repeat(2, 68px);
+    -ms-grid-rows: (68px)[3];
+        grid-template-rows: repeat(3, 68px);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #navigationdefault i {
+    font-size: 56px;
+    text-align: center;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials {
+    margin-top: 16px;
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials img {
+    width: 68px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #aboutcontent {
+    width: 73%;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 19.2px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #spotify {
+    position: absolute;
+    top: 16px !important;
+    right: 16px;
+    width: 184px;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  #whole {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 10vh;
+  }
+  #whole #profileimage-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-left: 15px;
+    width: 1185px;
+  }
+  #whole #profileimage-name #profileimage {
+    width: 262.5px;
+    z-index: 2;
+  }
+  #whole #profileimage-name h1 {
+    background-color: #00ffe0;
+    padding: 7.5px 15px;
+    padding-left: 60px;
+    margin-left: -37.5px;
+    z-index: 1;
+    border-radius: 15px;
+    font-size: 45px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify {
+    background-image: linear-gradient(45deg, #dbff00, #ff00d6, #32ffff);
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: -75px;
+    padding-top: 140px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    width: 1170px;
+    position: relative;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #navigationdefault {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ae00ff), to(red));
+    background-image: linear-gradient(#ae00ff, red);
+    padding: 11.25px;
+    border-radius: 15px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (63.75px)[2];
+        grid-template-columns: repeat(2, 63.75px);
+    -ms-grid-rows: (63.75px)[3];
+        grid-template-rows: repeat(3, 63.75px);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #navigationdefault i {
+    font-size: 52.5px;
+    text-align: center;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials {
+    margin-top: 15px;
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials img {
+    width: 63.75px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #aboutcontent {
+    width: 73%;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 18px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #spotify {
+    position: absolute;
+    top: 15px !important;
+    right: 15px;
+    width: 172.5px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  #whole {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 10vh;
+  }
+  #whole #profileimage-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-left: 14px;
+    width: 1106px;
+  }
+  #whole #profileimage-name #profileimage {
+    width: 245px;
+    z-index: 2;
+  }
+  #whole #profileimage-name h1 {
+    background-color: #00ffe0;
+    padding: 7px 14px;
+    padding-left: 56px;
+    margin-left: -35px;
+    z-index: 1;
+    border-radius: 14px;
+    font-size: 42px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify {
+    background-image: linear-gradient(45deg, #dbff00, #ff00d6, #32ffff);
+    padding: 14px;
+    border-radius: 14px;
+    margin-top: -70px;
+    padding-top: 140px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    width: 1092px;
+    position: relative;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #navigationdefault {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ae00ff), to(red));
+    background-image: linear-gradient(#ae00ff, red);
+    padding: 10.5px;
+    border-radius: 14px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (59.5px)[2];
+        grid-template-columns: repeat(2, 59.5px);
+    -ms-grid-rows: (59.5px)[3];
+        grid-template-rows: repeat(3, 59.5px);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #navigationdefault i {
+    font-size: 49px;
+    text-align: center;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials {
+    margin-top: 14px;
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials img {
+    width: 59.5px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #aboutcontent {
+    width: 73%;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 16.8px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #spotify {
+    position: absolute;
+    top: 14px !important;
+    right: 14px;
+    width: 161px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  #whole {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 10vh;
+  }
+  #whole #profileimage-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-left: 12px;
+    width: 948px;
+  }
+  #whole #profileimage-name #profileimage {
+    width: 210px;
+    z-index: 2;
+  }
+  #whole #profileimage-name h1 {
+    background-color: #00ffe0;
+    padding: 6px 12px;
+    padding-left: 48px;
+    margin-left: -30px;
+    z-index: 1;
+    border-radius: 12px;
+    font-size: 36px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify {
+    background-image: linear-gradient(45deg, #dbff00, #ff00d6, #32ffff);
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: -60px;
+    padding-top: 140px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    width: 936px;
+    position: relative;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #navigationdefault {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ae00ff), to(red));
+    background-image: linear-gradient(#ae00ff, red);
+    padding: 9px;
+    border-radius: 12px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (51px)[2];
+        grid-template-columns: repeat(2, 51px);
+    -ms-grid-rows: (51px)[3];
+        grid-template-rows: repeat(3, 51px);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #navigationdefault i {
+    font-size: 42px;
+    text-align: center;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials {
+    margin-top: 12px;
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials img {
+    width: 51px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #aboutcontent {
+    width: 73%;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 14.4px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #spotify {
+    position: absolute;
+    top: 12px !important;
+    right: 12px;
+    width: 138px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #whole {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin: 0px;
+    height: max-content;
+    margin-top: 100px;
+    width: 98vw;
+    margin-bottom: 10vh;
+  }
+  #whole #profileimage-name {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: absolute;
+    top: 0px;
+    margin-left: 0px;
+    width: 500px;
+  }
+  #whole #profileimage-name h1 {
+    padding-left: 20px;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: transparent;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify {
+    width: 80vw;
+    padding-top: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 0px;
+    padding-bottom: 75px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #navigationdefault {
+    display: none;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 404.688px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials img {
+    margin: 10px 0px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #aboutcontent {
+    text-align: center;
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: 70px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #spotify {
+    right: 29%;
+    width: 232px;
+    top: auto !important;
+    bottom: -20px !important;
+  }
+  #NavigationBottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #whole {
+    margin-top: 80px;
+    width: 97vw;
+    margin-bottom: 10vh;
+  }
+  #whole #profileimage-name {
+    width: 400px;
+  }
+  #whole #profileimage-name #profileimage {
+    width: 160px;
+  }
+  #whole #profileimage-name h1 {
+    padding-left: 16px;
+    font-size: 32px;
+    margin-top: 3vh;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify {
+    padding-top: 16px;
+    padding-bottom: 60px;
+    width: 80vw;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials {
+    margin-top: 8px;
+    width: 320px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials img {
+    width: 52px;
+    margin: 0px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #aboutcontent {
+    font-size: 19.2px;
+    margin-left: 0px;
+    margin-top: 70px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #spotify {
+    right: 104px;
+    bottom: -16px !important;
+    width: 185.6px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  #whole {
+    margin-top: 70px;
+    width: 97vw;
+    margin-bottom: 10vh;
+  }
+  #whole #profileimage-name {
+    width: 350px;
+  }
+  #whole #profileimage-name #profileimage {
+    width: 140px;
+  }
+  #whole #profileimage-name h1 {
+    padding-left: 14px;
+    font-size: 28px;
+    margin-top: 3vh;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify {
+    padding-top: 14px;
+    padding-bottom: 52.5px;
+    width: 80vw;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials {
+    margin-top: 7px;
+    width: 280px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials img {
+    width: 45.5px;
+    margin: 0px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #aboutcontent {
+    font-size: 16.8px;
+    margin-left: 0px;
+    margin-top: 70px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #spotify {
+    right: 91px;
+    bottom: -14px !important;
+    width: 162.4px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #whole {
+    margin-top: 65px;
+    width: 97vw;
+    margin-bottom: 10vh;
+  }
+  #whole #profileimage-name {
+    width: 325px;
+  }
+  #whole #profileimage-name #profileimage {
+    width: 130px;
+  }
+  #whole #profileimage-name h1 {
+    padding-left: 13px;
+    font-size: 26px;
+    margin-top: 3vh;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify {
+    padding-top: 13px;
+    padding-bottom: 48.75px;
+    width: 80vw;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials {
+    margin-top: 6.5px;
+    width: 260px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials img {
+    width: 42.25px;
+    margin: 0px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #aboutcontent {
+    font-size: 15.6px;
+    margin-left: 0px;
+    margin-top: 70px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #spotify {
+    right: 84.5px;
+    bottom: -13px !important;
+    width: 150.8px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #whole {
+    margin-top: 60px;
+    width: 97vw;
+    margin-bottom: 10vh;
+  }
+  #whole #profileimage-name {
+    width: 300px;
+  }
+  #whole #profileimage-name #profileimage {
+    width: 120px;
+  }
+  #whole #profileimage-name h1 {
+    padding-left: 12px;
+    font-size: 24px;
+    margin-top: 3vh;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify {
+    padding-top: 12px;
+    padding-bottom: 45px;
+    width: 80vw;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials {
+    margin-top: 6px;
+    width: 240px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials img {
+    width: 39px;
+    margin: 0px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #aboutcontent {
+    font-size: 14.4px;
+    margin-left: 0px;
+    margin-top: 70px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #spotify {
+    right: 78px;
+    bottom: -12px !important;
+    width: 139.2px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #whole {
+    margin-top: 55px;
+    width: 97vw;
+    margin-bottom: 10vh;
+  }
+  #whole #profileimage-name {
+    width: 275px;
+  }
+  #whole #profileimage-name #profileimage {
+    width: 110px;
+  }
+  #whole #profileimage-name h1 {
+    padding-left: 11px;
+    font-size: 22px;
+    margin-top: 3vh;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify {
+    padding-top: 11px;
+    padding-bottom: 41.25px;
+    width: 80vw;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials {
+    margin-top: 5.5px;
+    width: 220px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #navigationdefault-socials #socials img {
+    width: 35.75px;
+    margin: 0px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #aboutcontent {
+    font-size: 13.2px;
+    margin-left: 0px;
+    margin-top: 70px;
+  }
+  #whole #navigationdefault-socials-aboutcontent-spotify #spotify {
+    right: 71.5px;
+    bottom: -11px !important;
+    width: 127.6px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #NavigationBottom i {
+    font-size: 10vw;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

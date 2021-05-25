@@ -1,0 +1,445 @@
+#backgroundimages {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+#backgroundimages img {
+  position: absolute;
+}
+
+#backgroundimages #PurpleStar {
+  left: 4vw;
+  top: 8vh;
+  -webkit-animation: rotatestar infinite ease-in-out 5s forwards;
+          animation: rotatestar infinite ease-in-out 5s forwards;
+}
+
+#backgroundimages #SampleArticle {
+  left: 8vw;
+  top: 14vh;
+  -webkit-transform: rotate(34deg);
+          transform: rotate(34deg);
+}
+
+#backgroundimages #DarkGreenStar {
+  left: 2vw;
+  top: 40vh;
+  -webkit-animation: rotatestar infinite ease-in-out 5s forwards;
+          animation: rotatestar infinite ease-in-out 5s forwards;
+}
+
+#backgroundimages #PinkCircle {
+  left: 4vw;
+  top: 90vh;
+}
+
+#backgroundimages #LightBlueStar {
+  left: 10vw;
+  top: 80vh;
+  -webkit-animation: rotatestar infinite ease-in-out 5s forwards;
+          animation: rotatestar infinite ease-in-out 5s forwards;
+}
+
+#backgroundimages #LightGreenStar {
+  left: 85vw;
+  top: 3vh;
+  -webkit-animation: rotatestar infinite ease-in-out 5s forwards;
+          animation: rotatestar infinite ease-in-out 5s forwards;
+}
+
+#backgroundimages #YellowStar {
+  left: 93vw;
+  top: 10vh;
+  -webkit-animation: rotatestar infinite ease-in-out 5s forwards;
+          animation: rotatestar infinite ease-in-out 5s forwards;
+}
+
+#backgroundimages #MarsColonization {
+  left: 80vw;
+  top: 14vh;
+  -webkit-transform: rotate(15.5deg);
+          transform: rotate(15.5deg);
+}
+
+#backgroundimages #PinkStar {
+  left: 92vw;
+  top: 46vh;
+  -webkit-animation: rotatestar infinite ease-in-out 5s forwards;
+          animation: rotatestar infinite ease-in-out 5s forwards;
+}
+
+#backgroundimages #Galaxy {
+  left: 70vw;
+  top: 45vh;
+  -webkit-transform: rotate(-18deg);
+          transform: rotate(-18deg);
+}
+
+#backgroundimages #OrangeCircle {
+  left: 95vw;
+  top: 80vh;
+}
+
+#backgroundimages #MahabalipuramImage {
+  left: 82vw;
+  top: 80vh;
+}
+
+@media only screen and (max-width: 1900px) {
+  #backgroundimages #PurpleStar {
+    width: 16.8px;
+    height: 16.8px;
+  }
+  #backgroundimages #SampleArticle {
+    width: 116px;
+    height: 122.4px;
+  }
+  #backgroundimages #DarkGreenStar {
+    width: 65.6px;
+    height: 65.6px;
+  }
+  #backgroundimages #PinkCircle {
+    width: 28px;
+    height: 28px;
+  }
+  #backgroundimages #LightBlueStar {
+    width: 39.2px;
+    height: 39.2px;
+  }
+  #backgroundimages #LightGreenStar {
+    width: 25.6px;
+    height: 25.6px;
+  }
+  #backgroundimages #YellowStar {
+    height: 40px;
+    width: 40px;
+  }
+  #backgroundimages #MarsColonization {
+    width: 218.4px;
+    height: 160px;
+  }
+  #backgroundimages #PinkStar {
+    width: 37.6px;
+    height: 37.6px;
+  }
+  #backgroundimages #Galaxy {
+    width: 296px;
+    height: 220px;
+  }
+  #backgroundimages #OrangeCircle {
+    left: 28px;
+    top: 28px;
+  }
+  #backgroundimages #MahabalipuramImage {
+    width: 102.4px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  #backgroundimages #PurpleStar {
+    width: 14.7px;
+    height: 14.7px;
+  }
+  #backgroundimages #SampleArticle {
+    width: 101.5px;
+    height: 107.1px;
+  }
+  #backgroundimages #DarkGreenStar {
+    width: 57.4px;
+    height: 57.4px;
+  }
+  #backgroundimages #PinkCircle {
+    width: 24.5px;
+    height: 24.5px;
+  }
+  #backgroundimages #LightBlueStar {
+    width: 34.3px;
+    height: 34.3px;
+  }
+  #backgroundimages #LightGreenStar {
+    width: 22.4px;
+    height: 22.4px;
+  }
+  #backgroundimages #YellowStar {
+    height: 35px;
+    width: 35px;
+  }
+  #backgroundimages #MarsColonization {
+    width: 191.1px;
+    height: 140px;
+  }
+  #backgroundimages #PinkStar {
+    width: 32.9px;
+    height: 32.9px;
+  }
+  #backgroundimages #Galaxy {
+    width: 259px;
+    height: 192.5px;
+  }
+  #backgroundimages #OrangeCircle {
+    left: 24.5px;
+    top: 24.5px;
+  }
+  #backgroundimages #MahabalipuramImage {
+    width: 89.6px;
+    height: 87.5px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #backgroundimages #PurpleStar {
+    width: 10.5px;
+    height: 10.5px;
+  }
+  #backgroundimages #SampleArticle {
+    width: 72.5px;
+    height: 76.5px;
+  }
+  #backgroundimages #DarkGreenStar {
+    width: 41px;
+    height: 41px;
+  }
+  #backgroundimages #PinkCircle {
+    width: 17.5px;
+    height: 17.5px;
+  }
+  #backgroundimages #LightBlueStar {
+    width: 24.5px;
+    height: 24.5px;
+  }
+  #backgroundimages #LightGreenStar {
+    width: 16px;
+    height: 16px;
+  }
+  #backgroundimages #YellowStar {
+    height: 25px;
+    width: 25px;
+  }
+  #backgroundimages #MarsColonization {
+    width: 136.5px;
+    height: 100px;
+  }
+  #backgroundimages #PinkStar {
+    width: 23.5px;
+    height: 23.5px;
+  }
+  #backgroundimages #Galaxy {
+    width: 185px;
+    height: 137.5px;
+  }
+  #backgroundimages #OrangeCircle {
+    left: 17.5px;
+    top: 17.5px;
+  }
+  #backgroundimages #MahabalipuramImage {
+    width: 64px;
+    height: 62.5px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #backgroundimages #PurpleStar {
+    width: 10.5px;
+    height: 10.5px;
+  }
+  #backgroundimages #SampleArticle {
+    width: 72.5px;
+    height: 76.5px;
+  }
+  #backgroundimages #DarkGreenStar {
+    width: 41px;
+    height: 41px;
+  }
+  #backgroundimages #PinkCircle {
+    width: 17.5px;
+    height: 17.5px;
+  }
+  #backgroundimages #LightBlueStar {
+    width: 24.5px;
+    height: 24.5px;
+  }
+  #backgroundimages #LightGreenStar {
+    width: 16px;
+    height: 16px;
+  }
+  #backgroundimages #YellowStar {
+    height: 25px;
+    width: 25px;
+  }
+  #backgroundimages #MarsColonization {
+    width: 136.5px;
+    height: 100px;
+  }
+  #backgroundimages #PinkStar {
+    width: 23.5px;
+    height: 23.5px;
+  }
+  #backgroundimages #Galaxy {
+    width: 185px;
+    height: 137.5px;
+  }
+  #backgroundimages #OrangeCircle {
+    left: 17.5px;
+    top: 17.5px;
+  }
+  #backgroundimages #MahabalipuramImage {
+    width: 64px;
+    height: 62.5px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #backgroundimages #PurpleStar {
+    width: 8.4px;
+    height: 8.4px;
+  }
+  #backgroundimages #SampleArticle {
+    width: 58px;
+    height: 61.2px;
+  }
+  #backgroundimages #DarkGreenStar {
+    width: 32.8px;
+    height: 32.8px;
+  }
+  #backgroundimages #PinkCircle {
+    width: 14px;
+    height: 14px;
+  }
+  #backgroundimages #LightBlueStar {
+    width: 19.6px;
+    height: 19.6px;
+  }
+  #backgroundimages #LightGreenStar {
+    width: 12.8px;
+    height: 12.8px;
+  }
+  #backgroundimages #YellowStar {
+    height: 20px;
+    width: 20px;
+  }
+  #backgroundimages #MarsColonization {
+    width: 109.2px;
+    height: 80px;
+  }
+  #backgroundimages #PinkStar {
+    width: 18.8px;
+    height: 18.8px;
+  }
+  #backgroundimages #Galaxy {
+    width: 148px;
+    height: 110px;
+  }
+  #backgroundimages #OrangeCircle {
+    left: 14px;
+    top: 14px;
+  }
+  #backgroundimages #MahabalipuramImage {
+    width: 51.2px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #backgroundimages #PurpleStar {
+    width: 6.3px;
+    height: 6.3px;
+  }
+  #backgroundimages #SampleArticle {
+    width: 43.5px;
+    height: 45.9px;
+  }
+  #backgroundimages #DarkGreenStar {
+    width: 24.6px;
+    height: 24.6px;
+  }
+  #backgroundimages #PinkCircle {
+    width: 10.5px;
+    height: 10.5px;
+  }
+  #backgroundimages #LightBlueStar {
+    width: 14.7px;
+    height: 14.7px;
+  }
+  #backgroundimages #LightGreenStar {
+    width: 9.6px;
+    height: 9.6px;
+  }
+  #backgroundimages #YellowStar {
+    height: 15px;
+    width: 15px;
+  }
+  #backgroundimages #MarsColonization {
+    width: 81.9px;
+    height: 60px;
+  }
+  #backgroundimages #PinkStar {
+    width: 14.1px;
+    height: 14.1px;
+  }
+  #backgroundimages #Galaxy {
+    width: 111px;
+    height: 82.5px;
+  }
+  #backgroundimages #OrangeCircle {
+    left: 10.5px;
+    top: 10.5px;
+  }
+  #backgroundimages #MahabalipuramImage {
+    width: 38.4px;
+    height: 37.5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #backgroundimages #PurpleStar {
+    width: 4.2px;
+    height: 4.2px;
+  }
+  #backgroundimages #SampleArticle {
+    width: 29px;
+    height: 30.6px;
+  }
+  #backgroundimages #DarkGreenStar {
+    width: 16.4px;
+    height: 16.4px;
+  }
+  #backgroundimages #PinkCircle {
+    width: 7px;
+    height: 7px;
+  }
+  #backgroundimages #LightBlueStar {
+    width: 9.8px;
+    height: 9.8px;
+  }
+  #backgroundimages #LightGreenStar {
+    width: 6.4px;
+    height: 6.4px;
+  }
+  #backgroundimages #YellowStar {
+    height: 10px;
+    width: 10px;
+  }
+  #backgroundimages #MarsColonization {
+    width: 54.6px;
+    height: 40px;
+  }
+  #backgroundimages #PinkStar {
+    width: 9.4px;
+    height: 9.4px;
+  }
+  #backgroundimages #Galaxy {
+    width: 74px;
+    height: 55px;
+  }
+  #backgroundimages #OrangeCircle {
+    left: 7px;
+    top: 7px;
+  }
+  #backgroundimages #MahabalipuramImage {
+    width: 25.6px;
+    height: 25px;
+  }
+}
+/*# sourceMappingURL=backgroundimages.css.map */
