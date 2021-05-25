@@ -7,7 +7,6 @@ const mongoose = require('mongoose')
 const http = require('http')
 const bodyparser = require('body-parser')
 const multer = require('multer')
-const ejsLint = require('ejs-lint');
 
 app.use(express.urlencoded())
 app.use(express.static(path.join(__dirname, '/')))
