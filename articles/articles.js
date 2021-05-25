@@ -55,7 +55,7 @@ else {
     $('.article .brief').click((e) => {
         const clas = $(e.currentTarget.parentNode).attr('class')
 
-        if (clas == 'article minor') {
+        if (clas == 'article') {
             $(e.currentTarget.parentNode.children[1]).show()
 
             $('.brief').hide()
