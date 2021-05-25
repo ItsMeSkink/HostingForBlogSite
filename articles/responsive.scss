@@ -181,11 +181,14 @@
         }
         #title_speak_content {
             overflow: auto;
+            overflow-x: hidden;
+
             margin-left: 0px;
             padding: 0px 5px;
             padding-left: 0px;
             height: 81vh;
             width: 99vw;
+
             #content {
                 overflow: hidden !important;
                 height: fit-content;
@@ -199,8 +202,6 @@
 
                 border-top-left-radius: 20px;
                 border-top-right-radius: 20px;
-
-              
 
                 * {
                     margin: 0px 20px;
@@ -223,6 +224,8 @@
                 width: 99vw !important;
                 flex-direction: column;
                 align-items: center;
+                overflow-x: hidden;
+                overflow: auto;
 
                 #Speak {
                     display: none;
@@ -256,6 +259,7 @@
 @include res(550px) {
     .detail {
         #title_speak_content {
+            overflow-x: hidden;
             #title_speak {
                 width: 99vw !important;
                 flex-direction: column;

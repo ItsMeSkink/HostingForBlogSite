@@ -41,7 +41,7 @@
                         </div>
 
 
-                        <img src="../thumbnailstorage/<%=item.Thumbnail%>" alt="" id="Thumbnail">
+                        <img src="../thumbnailstorage/<%=item.Thumbnail%>" alt="" id="Thumbnail" loading = "lazy">
 
 
                         <div class="quarter"></div>
@@ -62,7 +62,7 @@
                                         <%}) %>
                                 </div>
                                 <span class="docomment">
-                                    <input type="text" name="CommentContent" class="CommentContent <%=item.id%>" placeholder="Care to Comment?" >
+                                    <input type="text" name="CommentContent" class="CommentContent a<%=item.id%>" placeholder="Care to Comment?" >
 
                                     <button class="CommentButton" id="<%=item.id%>">&#128488;</button>
                                 </span>
@@ -178,7 +178,5 @@
 
 
         <script src="/navigation.js"></script>
-        <script src="/__/firebase/8.6.2/firebase-app.js"></script>
-        <script src="/__/firebase/init.js"></script>
     </body>
 </html>

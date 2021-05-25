@@ -92,29 +92,30 @@ $('.CommentContent').on('keydown', (e) => {
     if (event.key == 'Enter') {
         const articlenumber = e.currentTarget.parentNode.parentNode.parentNode.parentNode.parentNode.id
 
-        let comment = document.querySelector('#' + articlenumber + ' .' + e.currentTarget.classList[1]).value
+        let comment = document.querySelector('.' + e.currentTarget.classList[1]).value
+
         
         document.querySelector('#' + articlenumber + ' #displaycomments').innerHTML += `<div> ${comment} </div>`
-
+        
         var commentdiv = document.querySelector(`#${articlenumber} #displaycomments`);
         commentdiv.scrollTop = commentdiv.scrollHeight;
-
+        
         comment = {
             content: comment,
             id: e.currentTarget.classList[1]
         }
-
+        
+        
+        fetch('/comment', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(comment),
+        })
+        
         console.log(comment)
-
-        // fetch('/comment', {
-        //     method: 'POST',
-        //     headers: {
-        //         'Content-Type': 'application/json'
-        //     },
-        //     body: JSON.stringify(comment),
-        // })
-
-        // document.querySelector('#' + articlenumber + ' .CommentContent').value = ''
+        document.querySelector('#' + articlenumber + ' .CommentContent').value = ''
 
     }
 })
@@ -173,8 +174,6 @@ let articles = document.getElementsByClassName('article')
 // $('.article #brief #content:first-child').removeClass('minor')
 let articlenumber = articles.length
 let i = 0;
-
-console.log(window.innerWidth)
 
 if (window.innerWidth > 1220 + 20) {
     $(window).on('wheel', (e) => {

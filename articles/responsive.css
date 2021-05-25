@@ -717,7 +717,7 @@
     padding: 20px;
   }
   .detail .commentsection .comments * {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   .detail .commentsection .comments .docomment input {
     font-size: 3vw;
@@ -762,6 +762,7 @@
   }
   .detail #title_speak_content {
     overflow: auto;
+    overflow-x: hidden;
     margin-left: 0px;
     padding: 0px 5px;
     padding-left: 0px;
@@ -806,6 +807,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    overflow-x: hidden;
+    overflow: auto;
   }
   .detail #title_speak_content #title_speak #Speak {
     display: none;
@@ -825,6 +828,9 @@
 }
 
 @media only screen and (max-width: 550px) {
+  .detail #title_speak_content {
+    overflow-x: hidden;
+  }
   .detail #title_speak_content #title_speak {
     width: 99vw !important;
     -webkit-box-orient: vertical;
